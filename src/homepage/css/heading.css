@@ -1,0 +1,53 @@
+.full-width {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .logo-img {
+    max-width: 100px; /* Adjust the size */
+    height: auto;
+  }
+  
+  .main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blockquote-wrapper {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .mode-section p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  /* Ensure full width */
+  .container-fluid {
+    padding: 0 5%;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .full-width {
+      flex-direction: column;
+    }
+  
+    .logo-img {
+      max-width: 80px;
+    }
+  
+    .main-heading {
+      font-size: 1.5rem;
+    }
+  
+    .mode-section {
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+  

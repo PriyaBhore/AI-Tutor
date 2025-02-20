@@ -1,0 +1,43 @@
+
+ /* Marquee Container */
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: linear-gradient(to right, #007bff, #6610f2); /* Gradient background */
+    padding: 10px 0;
+    position: relative;
+  }
+  
+  /* Scrolling Text Animation */
+  .marquee-content {
+    display: inline-block;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .star-icon {
+    color: yellow;
+    margin: 0 10px;
+    filter: drop-shadow(0px 0px 4px yellow); /* Glow effect */
+  }
+  
+  /* Animation Keyframes */
+  @keyframes scrollText {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .marquee-content {
+      font-size: 1rem;
+    }
+  }
+  

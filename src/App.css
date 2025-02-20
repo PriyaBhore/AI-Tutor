@@ -1,0 +1,61 @@
+/* Ensure full width and height */
+.full-screen {
+  width: 100%;
+  height: 100vh;  /* Cover full viewport height */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Remove extra spacing */
+.full-width {
+  width: 100%;
+  padding: 10px 0;
+}
+
+/* Adjust Logo */
+.logo-img {
+  max-width: 120px; /* Adjust as needed */
+  height: auto;
+}
+
+/* Heading Styling */
+.main-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Blockquote Styling */
+.blockquote-wrapper {
+  font-style: italic;
+  color: #555;
+}
+
+/* Mode Section */
+.mode-section p {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .full-width {
+    flex-direction: column;
+  }
+
+  .logo-img {
+    max-width: 80px;
+  }
+
+  .main-heading {
+    font-size: 1.5rem;
+  }
+
+  .mode-section {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
