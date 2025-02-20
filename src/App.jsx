@@ -16,6 +16,7 @@ import "./homepage/css/carousel.css";
 import "./homepage/css/card.css";
 import { FaStar } from "react-icons/fa";
 import Routing from "./homepage/pages/routing";
+import Reviews from "./homepage/pages/reviews";
 
 function App() {
   return (
@@ -221,6 +222,10 @@ function App() {
     </div>
   </div>
 </div>
+
+    <div>
+        <Reviews/>
+    </div>
 
     </div>
 
