@@ -3,3 +3,8 @@
 - Set Routing for navigation
 - Set Up Carousel Slides
 - Showed Features Via Cards.
+
+# Day 2 Work :
+- Firebase Setup
+- Designed Review Section
+- Stored User review in a firebase database
