@@ -8,3 +8,7 @@
 - Firebase Setup
 - Designed Review Section
 - Stored User review in a firebase database
+
+# Day 3 Work :
+- Designed FAQs section
+- Designed Contact Us Section.

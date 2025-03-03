@@ -17,6 +17,8 @@ import "./homepage/css/card.css";
 import { FaStar } from "react-icons/fa";
 import Routing from "./homepage/pages/routing";
 import Reviews from "./homepage/pages/reviews";
+import Faqs from './homepage/pages/faq';
+import Enquiry from './homepage/pages/enquiry.jsx';
 
 function App() {
   return (
@@ -226,7 +228,14 @@ function App() {
     <div>
         <Reviews/>
     </div>
+    <div>
+      <Faqs/>
+    </div>
 
+    <div>
+
+    </div>
+        <Enquiry/>
     </div>
 
     </>
